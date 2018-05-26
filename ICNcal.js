@@ -441,7 +441,7 @@ function hDateDay() {
     else if (gdoy == 352) {return '27';}
     else if (gdoy == 353) {return '28';}
 }
-console.log(gdoy); //147
+console.log(gdoy); //146
 console.log(year); //3810
 console.log( hDateMonth() ); //06
 console.log(aLeap(year)); //false
