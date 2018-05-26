@@ -14,19 +14,19 @@ function aLeap(year) {
 }
 
 function hDateMonth() {
-    if (gdoy == 354 && aLeap(year) == true) {return '--'; }
-    else if (gdoy == 354 && aLeap(year) == false) {return '00'; }
-    else if (gdoy == 355 && aLeap(year) == true) {return '00'; }
-    else if (gdoy == 355 && aLeap(year) == false) {return '01'; }              
-    else if (gdoy >= 356) {return '01'; } 
+    	if (gdoy == 354 && aLeap(year) == true) {return '--'; }
+   	else if (gdoy == 354 && aLeap(year) == false) {return '00'; }
+   	else if (gdoy == 355 && aLeap(year) == true) {return '00'; }
+    	else if (gdoy == 355 && aLeap(year) == false) {return '01'; }              
+    	else if (gdoy >= 356) {return '01'; } 
 	else if (gdoy < 18) {return '01'; } 
 	else if (gdoy >= 18 && gdoy < 46) {return '02'; }
 	else if (gdoy >= 46 && gdoy < 74) {return '03'; }
 	else if (gdoy >= 74 && gdoy < 102) {return '04'; }
   	else if (gdoy >= 102 && gdoy < 130) {return '05'; }
 	else if (gdoy >= 130 && gdoy < 158) {return '06' }
-    else if (gdoy >= 158 && gdoy < 186) {return '07'; }
-    else if (gdoy >= 186 && gdoy < 214) {return '08'; }
+   	else if (gdoy >= 158 && gdoy < 186) {return '07'; }
+   	else if (gdoy >= 186 && gdoy < 214) {return '08'; }
   	else if (gdoy >= 214 && gdoy < 242) {return '09'; }
 	else if (gdoy >= 242 && gdoy < 270) {return '10'; }
   	else if (gdoy >= 270 && gdoy < 298) {return '11'; }
